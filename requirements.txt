@@ -1,0 +1,11 @@
+# Reproducible environment for the A-share index time-series study.
+# Python 3.12.7 was used for the reported run.
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+statsmodels==0.14.2
+arch==9.0.0
+matplotlib==3.9.2
+akshare==1.19.1
+requests==2.32.3
+tabulate==0.9.0
