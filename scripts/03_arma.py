@@ -79,7 +79,7 @@ def select_orders(y_train: np.ndarray) -> tuple[pd.DataFrame, dict]:
         valid = valid_all
     best_aic = valid.sort_values(["aic", "p", "q"]).iloc[0]
     best_bic = valid.sort_values(["bic", "p", "q"]).iloc[0]
-    chosen = best_aic if not (best_aic["p"] == best_bic["p"] and best_aic["q"] == best_bic["q"]) else best_aic
+    chosen = best_aic
     info = {
         "best_aic_p": int(best_aic["p"]), "best_aic_q": int(best_aic["q"]),
         "best_aic": float(best_aic["aic"]),
