@@ -15,3 +15,9 @@ Thumbs.db
 
 # Jupyter
 .ipynb_checkpoints/
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
